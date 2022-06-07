@@ -1,0 +1,109 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1F2937;
+    background-blend-mode: lighten;
+    color: lightgray;
+    width: 550px;
+    height: 550px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-size: 550px 550px;
+}
+
+.mainContainer {
+    position: relative;
+    width: 550px;
+    height: 550px;
+    border: white solid 2px;
+}
+
+.headContainer {
+    position: absolute;
+    top: 0px;  
+    left: 0px;
+    width: 550px;
+    height: 260px;
+    margin: auto;
+    padding: 0;
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+}
+
+.headContainerTitle {
+    position: inherit;
+    left: 15%;
+    top: 7%;
+    background: transparent;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 5px 0px;
+}
+
+.inputBox {
+    position: inherit;
+    top: 45%; 
+    left: 25%; 
+    width: 250px;
+    color: lightgray;
+    background: transparent;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid lightgrey;
+}
+
+.inputLabel {
+    position: inherit;
+    top: 60%;
+    left: 20%; 
+    background: transparent;
+    font-size: 12px;
+    padding: 5px;
+    width: auto;
+    height:auto;
+    margin: auto;
+}
+
+.conversionLabel {
+    position: relative;
+    top: 250px;
+    color:rgb(182, 165, 165);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.conversionText {
+    position: relative;
+    top: 250px;
+    font-weight: bold;
+    font-size: 14px;
+    color:white;
+}
+
+.photoSubTxt {
+    position: relative;
+    top: 275px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-small;
+    color: white;
+ /*   border: 3px solid red; */
+}
+
+.photoSubTxt a {
+    color: lightgray;
+}
+
+.photoSubTxt a:hover {
+    color: goldenrod;
+    font-weight: bold;
+}
+
+.errorMsg {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+

@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="conversion.css">
+    </head>
+    <body>
+        
+        <div class="mainContainer">
+            <p id="debugFlag" hidden>1</p>
+            
+            <div class="headContainer">
+                <p class="headContainerTitle">Metric/Imperial unit conversion</p>
+                <div class="errorMsg"><p id="errMsg"></p></div>
+                <input type="number" id="convertNumber" name="convertNumber" class="inputBox">
+                </input>   <!-- convertNumber -->
+                <label for="convertNumber" class="inputLabel">Please insert number between 0 and 10000 for conversion</label>
+            </div> <!-- headContainer  -->
+            
+
+            <p class="conversionLabel"> Length (Meter/Feet)</p> 
+            <p class="conversionText" id="id-length">Meters = Feet  |  Feet = Meters</p> 
+            <br>
+
+            <p class="conversionLabel"> Volume (Liters/Gallons)</p>
+            <p class="conversionText" id="id-volume">Liters = Gallons  |  Gallons = Liters</p> 
+            <br>
+
+            <p class="conversionLabel"> Mass (Kilograms/Pounds)</p> 
+            <p class="conversionText" id="id-mass">Kilograms = Pounds  |  Pounds  = Kilograms</p> 
+
+
+            <footer class="photoSubTxt">
+                <p>Background photo by <a href="https://unsplash.com/@mrthetrain?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joshua Hoehne</a> on <a href="https://unsplash.com/t/textures-patterns?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+            </footer>
+            
+        </div> <!-- mainContainer  -->
+        
+        <script src="conversion.js"></script>
+    </body>
+</html>
